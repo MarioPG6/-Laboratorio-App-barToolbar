@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">toolBarPet</string>
+    <string name="edad">Edad</string>
+    <string name="create_order">Create Order</string>
+    <string name="registrar_mascota">Registrar Mascota</string>
+    <string name="especie">Especie</string>
+    <string name="nombre_de_la_mascota">Nombre de la mascota</string>
+    <string name="registro_de_mascotas">Registro de Mascotas</string>
+    <string name="agregar_evento">Agregar Evento</string>
+</resources>

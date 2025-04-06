@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackgroundDark"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar" />
+
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background_dark"
+            android:hint="@string/nombre_de_la_mascota"
+            android:minHeight="48dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTextEspecie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background_dark"
+            android:hint="@string/especie"
+            android:minHeight="48dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTextEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background_dark"
+            android:hint="@string/edad"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextPrimary"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/buttonRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrar_mascota"
+            android:backgroundTint="@color/colorButtonDark"
+            android:textColor="@color/colorButtonText"
+            android:layout_marginTop="16dp" />
+
+</LinearLayout>

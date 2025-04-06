@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToolBarPet" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorEditTextDark</item>
+        <item name="colorPrimaryVariant">@color/colorBackgroundDark</item>
+        <item name="colorOnPrimary">@color/colorTextPrimary</item>
+        <item name="colorSecondary">@color/colorHint</item>
+        <item name="android:windowBackground">@color/colorBackgroundDark</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+</resources>

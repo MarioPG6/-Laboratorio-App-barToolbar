@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextNombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background_dark"
+        android:hint="Nombre de la mascota"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/colorTextPrimary"
+        android:textColorHint="@color/colorTextPrimary" />
+
+    <EditText
+        android:id="@+id/editTextSintomas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Describe los síntomas"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:textColor="@color/colorTextPrimary"
+        android:textColorHint="@color/colorTextPrimary"
+        android:background="@drawable/edittext_background_dark"
+        android:gravity="top"/>
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compartir síntomas"
+        android:backgroundTint="@color/colorButtonDark"
+        android:textColor="@color/colorButtonText"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

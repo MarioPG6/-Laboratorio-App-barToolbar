@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_evento"
+        android:title="@string/agregar_evento"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_notificacion"
+        android:title="Notificar"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_sintomas"
+        android:title="Reportar Síntomas"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>
